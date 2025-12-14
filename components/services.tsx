@@ -1,16 +1,15 @@
 import {
   Building2,
-  KeyRound,
-  Users,
-  Truck,
-  Dog,
-  Search,
-  FileCheck,
   Eye,
-  Shield,
+  Users,
+  GraduationCap,
+  Camera,
+  ShoppingCart,
+  Ship,
+  Truck,
   UserCheck,
   Briefcase,
-  Radio,
+  Shield,
 } from "lucide-react"
 import { Card } from "@/components/ui/card"
 
@@ -19,52 +18,52 @@ export function Services() {
     {
       icon: Building2,
       title: "Company-Industrial Security Services",
-      description: "Comprehensive protection for manufacturing facilities and industrial sites.",
-    },
-    {
-      icon: KeyRound,
-      title: "Pipeline Security & Surveillance",
-      description: "Advanced biometric and card-based access management solutions.",
-    },
-    {
-      icon: Users,
-      title: "Office & General Security Services",
-      description: "Professionally trained guards for all security requirements.",
-    },
-    {
-      icon: Truck,
-      title: "Training Of Company Security Personnel",
-      description: "Mobile patrol units for wide-area surveillance and rapid response.",
-    },
-    {
-      icon: Dog,
-      title: "Security Watch Using CCTV, Metal Detectors, & Security Dogs",
-      description: "K-9 units with expert handlers and complete veterinary support.",
-    },
-    {
-      icon: Search,
-      title: "Security Manpower & Equipment Supply",
-      description: "Discrete and thorough investigative services for complex cases.",
-    },
-    {
-      icon: FileCheck,
-      title: "Marine Security & Escort Services",
-      description: "Background checks and security clearance verification services.",
+      description: "We deliver specialized protection for industrial facilities, assets, and personnel.It includes surveillance, access control, patrols, and risk management solutions.This service ensures safe operations, asset protection, and uninterrupted industrial productivity.",
     },
     {
       icon: Eye,
+      title: "Pipeline Security & Surveillance",
+      description: "protecting pipeline infrastructure from vandalism, theft, leaks, and sabotage we use monitoring systems, sensors, patrols, and surveillance technologies for early threat detection.",
+    },  
+    {
+      icon: Users,
+      title: "Office & General Security Services",
+      description: "We provide professional security solutions for offices and commercial spaces. This includes access control, surveillance, guard services, and incident responseTheservice ensures a safe, secure, and productive environment for staff, visitors, and assets.",
+    },
+    {
+      icon: GraduationCap,
+      title: "Training Of Company Security Personnel",
+      description: "We focus on equipping security staff with the skills and knowledge needed to perform effectively.It covers areas such as threat detection, emergency response, access control, and professional conduct.The training ensures competent, disciplined, and reliable security personnel for organizational safety.",
+    },
+    {
+      icon: Camera,
+      title: "Security Watch Using CCTV, Metal Detectors, & Security Dogs",
+      description: "We combine technology and trained animals to enhance security monitoring.CCTV provides continuous surveillance, metal detectors screen for prohibited items, and security dogs assist in detection and patrol.This integrated approach ensures rapid threat identification and strong perimeter protection.",
+    },
+    {
+      icon: ShoppingCart,
+      title: "Security Manpower & Equipment Supply",
+      description: "We provide trained security personnel alongside essential security tools and devices.It includes the deployment of guards and the supply of equipment such as uniforms, communication tools, and surveillance systems.The service ensures reliable, well-equipped security coverage for effective protection of people and assets.",
+    },
+    {
+      icon: Ship,
+      title: "Marine Security & Escort Services",
+      description: "We provide protection for vessels, offshore assets, and maritime operations.It includes armed or unarmed escorts, patrol boats, and monitoring to deter piracy and unauthorized access.The service ensures safe navigation, cargo protection, and secure maritime transit.",
+    },
+    {
+      icon: Truck,
       title: "Marine Transport & Logistics Services",
-      description: "Personal and remote surveillance with advanced monitoring technology.",
+      description: "We provide efficient movement of goods, equipment, and personnel across waterways.It covers vessel chartering, cargo handling, and coordination of marine operations.This service ensures safe, timely, and reliable maritime transportation and logistical support.",
     },
     {
-      icon: Shield,
+      icon: UserCheck,
       title: "Labour Supply Services & Manpower Development",
-      description: "Strategic intelligence collection and analysis for threat prevention.",
+      description: "We provide skilled and unskilled workforce solutions to meet organizational needs.It includes recruitment, deployment, training, and capacity building of personnel.This service ensures a competent, reliable workforce that supports productivity and long-term growth.",
     },
     {
-      icon: Radio,
+      icon: Briefcase,
       title: "Agency Consultancy Services",
-      description: "State-of-the-art communication systems for patrol coordination.",
+      description: "We provide professional advisory and representation services for organizations and individuals.It includes strategic guidance, compliance support, and liaison with relevant authorities or partners. This service helps clients make informed decisions and operate efficiently within regulatory and business frameworks.",
     },
     
   ]

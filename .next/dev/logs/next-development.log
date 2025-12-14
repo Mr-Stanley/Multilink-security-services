@@ -28,3 +28,624 @@ Import trace:
     ./components/hero.tsx
     ./app/page.tsx
 [00:33:43.432] Server  LOG      ✓ Compiled in 200ms
+[00:51:24.169] Server  LOG      ✓ Compiled in 376ms
+[16:32:20.706] Browser ERROR   ./components/footer.tsx:1:1
+Export Whatsapp doesn't exist in target module
+> 1 | import { Facebook, Twitter, Linkedin, Instagram, Whatsapp } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from "next/image"
+  3 |
+  4 | export function Footer() {
+
+The export Whatsapp was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-rsc] (ecmascript).
+Did you mean to import Wheat?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+[16:32:46.500] Server  ERROR   C:\Users\user\Downloads\security-company-website\.next\dev\server\chunks\ssr\[root-of-the-server]__37573208._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:32:46.510] Server  ERROR    ⨯ ReferenceError: Whatsapp is not defined
+[16:32:47.721] Browser ERROR   uncaughtError: ReferenceError: Whatsapp is not defined
+[16:33:35.200] Server  LOG      ✓ Compiled in 172ms
+[16:33:37.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:33:38.705] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[16:33:38.705] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[16:33:38.705] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765699665458}
+[16:33:42.040] Browser WARN    Image with src "http://localhost:3000/multilinkLogo.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[16:35:22.508] Server  LOG      ✓ Compiled in 269ms
+[16:38:33.699] Server  LOG      ✓ Compiled in 194ms
+[16:38:52.564] Server  LOG      ✓ Compiled in 344ms
+[16:38:54.606] Server  LOG      ✓ Compiled in 216ms
+[16:38:57.524] Server  LOG      ✓ Compiled in 647ms
+[16:39:02.268] Server  LOG      ✓ Compiled in 248ms
+[16:39:10.097] Server  LOG      ✓ Compiled in 186ms
+[16:39:11.816] Server  LOG      ✓ Compiled in 233ms
+[16:39:15.911] Server  LOG      ✓ Compiled in 166ms
+[16:39:18.246] Server  LOG      ✓ Compiled in 206ms
+[16:39:38.397] Server  LOG      ✓ Compiled in 374ms
+[16:39:41.779] Server  LOG      ✓ Compiled in 207ms
+[16:40:00.063] Server  LOG      ✓ Compiled in 274ms
+[16:46:49.051] Server  ERROR   C:\Users\user\Downloads\security-company-website\.next\dev\server\chunks\ssr\[root-of-the-server]__37573208._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:46:49.054] Server  ERROR    ⨯ ReferenceError: KeyRound is not defined
+[16:46:49.712] Browser ERROR   uncaughtError: ReferenceError: KeyRound is not defined
+[16:46:57.000] Server  ERROR   C:\Users\user\Downloads\security-company-website\.next\dev\server\chunks\ssr\[root-of-the-server]__37573208._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:46:57.004] Server  ERROR    ⨯ ReferenceError: Shield is not defined
+[16:46:58.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:46:59.709] Browser ERROR   uncaughtError: ReferenceError: Shield is not defined
+[16:46:59.709] Browser ERROR   uncaughtError: TypeError: Failed to execute 'measure' on 'Performance': '​Services' cannot have a negative time stamp.
+[16:47:05.609] Server  LOG      ✓ Compiled in 236ms
+[16:47:07.392] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:47:08.705] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[16:47:08.705] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[16:47:08.705] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765700477690}
+[16:51:27.347] Browser WARN    Image with src "http://localhost:3000/multilinkLogo.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[16:55:10.701] Browser ERROR   ./components/services.tsx:26:20
+Parsing ecmascript source code failed
+  24 |       icon: Eye,
+  25 |       title: "Pipeline Security & Surveillance",
+> 26 |       description: "protecting pipeline infrastructure from vandalism, theft, leaks, and sabotage.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | It uses monitoring systems, sensors, patrols, and surveillance technologies for early threat detection..",
+  28 |     },
+  29 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[16:55:15.710] Browser ERROR   ./components/services.tsx:26:20
+Parsing ecmascript source code failed
+  24 |       icon: Eye,
+  25 |       title: "Pipeline Security & Surveillance",
+> 26 |       description: "protecting pipeline infrastructure from vandalism, theft, leaks, and sabotage.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | It uses monitoring systems, sensors, patrols, and surveillance technologies for early threat detection.",
+  28 |     },
+  29 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[16:55:22.698] Browser ERROR   ./components/services.tsx:26:20
+Parsing ecmascript source code failed
+  24 |       icon: Eye,
+  25 |       title: "Pipeline Security & Surveillance",
+> 26 |       description: "Protecting pipeline infrastructure from vandalism, theft, leaks, and sabotage.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | It uses monitoring systems, sensors, patrols, and surveillance technologies for early threat detection.",
+  28 |     },
+  29 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[16:55:23.703] Browser ERROR   ./components/services.tsx:26:20
+Parsing ecmascript source code failed
+  24 |       icon: Eye,
+  25 |       title: "Pipeline Security & Surveillance",
+> 26 |       description: "Protecting pipeline infrastructure from vandalism, theft, leaks, and sabotage.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | It uses monitoring systems, sensors, patrols, and surveillance technologies for early threat detection.",
+  28 |     },  
+  29 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[16:55:28.714] Browser ERROR   ./components/services.tsx:27:4
+Parsing ecmascript source code failed
+  25 |       title: "Pipeline Security & Surveillance",
+  26 |       description: "Protecting pipeline infrastructure from vandalism, theft, leaks, and sabotage. It uses monitoring systems, sensors, patrols, and surveillance technologies for early threat detection.",
+> 27 | It uses monitoring systems, sensors, patrols, and surveillance technologies for early threat detection.",
+     |    ^^^^
+  28 |     },  
+  29 |     {
+  30 |       icon: Users,
+
+Unexpected token `uses`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[16:55:56.410] Server  LOG      ✓ Compiled in 216ms
+[16:56:39.704] Browser ERROR   ./components/services.tsx:26:20
+Parsing ecmascript source code failed
+  24 |       icon: Eye,
+  25 |       title: "Pipeline Security & Surveillance",
+> 26 |       description: "protecting pipeline infrastructure from vandalism, theft, leaks, and sabotage.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | It uses monitoring systems, sensors, patrols, and surveillance technologies for early threat detection.",
+  28 |     },  
+  29 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[16:56:54.698] Browser ERROR   ./components/services.tsx:26:20
+Parsing ecmascript source code failed
+  24 |       icon: Eye,
+  25 |       title: "Pipeline Security & Surveillance",
+> 26 |       description: "protecting pipeline infrastructure from vandalism, theft, leaks, and sabotage
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | It uses monitoring systems, sensors, patrols, and surveillance technologies for early threat detection.",
+  28 |     },  
+  29 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[16:57:00.484] Server  LOG      ✓ Compiled in 448ms
+[17:05:12.861] Browser ERROR   ./components/services.tsx:31:20
+Parsing ecmascript source code failed
+  29 |       icon: Users,
+  30 |       title: "Office & General Security Services",
+> 31 |       description: "provides professional security solutions for offices and commercial spaces.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 | It includes access control, surveillance, guard services, and incident response.
+  33 | The service ensures a safe, secure, and productive environment for staff, visitors, and assets.",
+  34 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:05:19.524] Server  LOG      ✓ Compiled in 217ms
+[17:05:27.709] Browser ERROR   ./components/services.tsx:31:20
+Parsing ecmascript source code failed
+  29 |       icon: Users,
+  30 |       title: "Office & General Security Services",
+> 31 |       description: "provides professional security solutions for offices and commercial spaces.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 | It includes access control, surveillance, guard services, and incident response.
+  33 | The service ensures a safe, secure, and productive environment for staff, visitors, and assets.",
+  34 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:05:36.695] Browser ERROR   ./components/services.tsx:31:20
+Parsing ecmascript source code failed
+  29 |       icon: Users,
+  30 |       title: "Office & General Security Services",
+> 31 |       description: "provides professional security solutions for offices and commercial spaces.It includes access control, surveillance, guard services, and incident response.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 | The service ensures a safe, secure, and productive environment for staff, visitors, and assets.",
+  33 |     },
+  34 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:05:39.703] Browser ERROR   ./components/services.tsx:31:20
+Parsing ecmascript source code failed
+  29 |       icon: Users,
+  30 |       title: "Office & General Security Services",
+> 31 |       description: "provides professional security solutions for offices and commercial spaces.It includes access control, surveillance, guard services, and incident response.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 | Theservice ensures a safe, secure, and productive environment for staff, visitors, and assets.",
+  33 |     },
+  34 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:05:48.715] Browser ERROR   ./components/services.tsx:31:20
+Parsing ecmascript source code failed
+  29 |       icon: Users,
+  30 |       title: "Office & General Security Services",
+> 31 |       description: "provides professional security solutions for offices and commercial spaces.It includes access control, surveillance, guard services, and incident response
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 | Theservice ensures a safe, secure, and productive environment for staff, visitors, and assets.",
+  33 |     },
+  34 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:05:55.889] Server  LOG      ✓ Compiled in 294ms
+[17:07:36.702] Browser ERROR   ./components/services.tsx:36:20
+Parsing ecmascript source code failed
+  34 |       icon: GraduationCap,
+  35 |       title: "Training Of Company Security Personnel",
+> 36 |       description: "focuses on equipping security staff with the skills and knowledge needed to perform effectively.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 | It covers areas such as threat detection, emergency response, access control, and professional conduct.
+  38 | The training ensures competent, disciplined, and reliable security personnel for organizational safety.",
+  39 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:07:41.696] Browser ERROR   ./components/services.tsx:36:20
+Parsing ecmascript source code failed
+  34 |       icon: GraduationCap,
+  35 |       title: "Training Of Company Security Personnel",
+> 36 |       description: "focuses on equipping security staff with the skills and knowledge needed to perform effectively.It covers areas such as threat detection, emergency response, access control, and professional conduct.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 | The training ensures competent, disciplined, and reliable security personnel for organizational safety.",
+  38 |     },
+  39 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:10:58.706] Browser ERROR   ./components/services.tsx:41:20
+Parsing ecmascript source code failed
+  39 |       icon: Camera,
+  40 |       title: "Security Watch Using CCTV, Metal Detectors, & Security Dogs",
+> 41 |       description: "combines technology and trained animals to enhance security monitoring.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  42 | CCTV provides continuous surveillance, metal detectors screen for prohibited items, and security dogs assist in detection and patrol.
+  43 | This integrated approach ensures rapid threat identification and strong perimeter protection.",
+  44 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:11:05.698] Browser ERROR   ./components/services.tsx:41:20
+Parsing ecmascript source code failed
+  39 |       icon: Camera,
+  40 |       title: "Security Watch Using CCTV, Metal Detectors, & Security Dogs",
+> 41 |       description: "combines technology and trained animals to enhance security monitoring.CCTV provides continuous surveillance, metal detectors screen for prohibited items, and security dogs assist in detection and patrol.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  42 | This integrated approach ensures rapid threat identification and strong perimeter protection.",
+  43 |     },
+  44 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:11:27.696] Server  LOG      ✓ Compiled in 408ms
+[17:13:24.710] Browser ERROR   ./components/services.tsx:46:20
+Parsing ecmascript source code failed
+  44 |       icon: ShoppingCart,
+  45 |       title: "Security Manpower & Equipment Supply",
+> 46 |       description: "provides trained security personnel alongside essential security tools and devices.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  47 | It includes the deployment of guards and the supply of equipment such as uniforms, communication tools, and surveillance systems.
+  48 | The service ensures reliable, well-equipped security coverage for effective protection of people and assets.",
+  49 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:13:28.699] Browser ERROR   ./components/services.tsx:46:20
+Parsing ecmascript source code failed
+  44 |       icon: ShoppingCart,
+  45 |       title: "Security Manpower & Equipment Supply",
+> 46 |       description: "provides trained security personnel alongside essential security tools and devices.It includes the deployment of guards and the supply of equipment such as uniforms, communication tools, and surveillance systems.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  47 | The service ensures reliable, well-equipped security coverage for effective protection of people and assets.",
+  48 |     },
+  49 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:13:36.685] Server  LOG      ✓ Compiled in 236ms
+[17:15:20.696] Browser ERROR   ./components/services.tsx:51:20
+Parsing ecmascript source code failed
+  49 |       icon: Ship,
+  50 |       title: "Marine Security & Escort Services",
+> 51 |       description: "provides protection for vessels, offshore assets, and maritime operations.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 | It includes armed or unarmed escorts, patrol boats, and monitoring to deter piracy and unauthorized access.
+  53 | The service ensures safe navigation, cargo protection, and secure maritime transit.",
+  54 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:15:25.708] Browser ERROR   ./components/services.tsx:51:20
+Parsing ecmascript source code failed
+  49 |       icon: Ship,
+  50 |       title: "Marine Security & Escort Services",
+> 51 |       description: "provides protection for vessels, offshore assets, and maritime operations.It includes armed or unarmed escorts, patrol boats, and monitoring to deter piracy and unauthorized access.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 | The service ensures safe navigation, cargo protection, and secure maritime transit.",
+  53 |     },
+  54 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:15:30.699] Browser ERROR   ./components/services.tsx:51:20
+Parsing ecmascript source code failed
+  49 |       icon: Ship,
+  50 |       title: "Marine Security & Escort Services",
+> 51 |       description: "provides protection for vessels, offshore assets, and maritime operations.It includes armed or unarmed escorts, patrol boats, and monitoring to deter piracy and unauthorized access.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 | Theservice ensures safe navigation, cargo protection, and secure maritime transit.",
+  53 |     },
+  54 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:15:40.586] Server  LOG      ✓ Compiled in 355ms
+[17:17:27.699] Browser ERROR   ./components/services.tsx:56:20
+Parsing ecmascript source code failed
+  54 |       icon: Truck,
+  55 |       title: "Marine Transport & Logistics Services",
+> 56 |       description: "provides efficient movement of goods, equipment, and personnel across waterways.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  57 | It covers vessel chartering, cargo handling, and coordination of marine operations.
+  58 | The service ensures safe, timely, and reliable maritime transportation and logistical support.",
+  59 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:17:33.701] Browser ERROR   ./components/services.tsx:56:20
+Parsing ecmascript source code failed
+  54 |       icon: Truck,
+  55 |       title: "Marine Transport & Logistics Services",
+> 56 |       description: "provides efficient movement of goods, equipment, and personnel across waterways.It covers vessel chartering, cargo handling, and coordination of marine operations.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  57 | The service ensures safe, timely, and reliable maritime transportation and logistical support.",
+  58 |     },
+  59 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:17:37.004] Server  LOG      ✓ Compiled in 239ms
+[17:18:50.812] Browser ERROR   ./components/services.tsx:61:20
+Parsing ecmascript source code failed
+  59 |       icon: UserCheck,
+  60 |       title: "Labour Supply Services & Manpower Development",
+> 61 |       description: "provides skilled and unskilled workforce solutions to meet organizational needs.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 | It includes recruitment, deployment, training, and capacity building of personnel.
+  63 | The service ensures a competent, reliable workforce that supports productivity and long-term growth.",
+  64 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:18:57.223] Browser ERROR   ./components/services.tsx:61:20
+Parsing ecmascript source code failed
+  59 |       icon: UserCheck,
+  60 |       title: "Labour Supply Services & Manpower Development",
+> 61 |       description: "provides skilled and unskilled workforce solutions to meet organizational needs.It includes recruitment, deployment, training, and capacity building of personnel.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 | The service ensures a competent, reliable workforce that supports productivity and long-term growth.",
+  63 |     },
+  64 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:20:41.705] Browser ERROR   ./components/services.tsx:66:20
+Parsing ecmascript source code failed
+  64 |       icon: Briefcase,
+  65 |       title: "Agency Consultancy Services",
+> 66 |       description: "provides professional advisory and representation services for organizations and individuals.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  67 | It includes strategic guidance, compliance support, and liaison with relevant authorities or partners.
+  68 | The service helps clients make informed decisions and operate efficiently within regulatory and business frameworks.n.",
+  69 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:20:47.704] Browser ERROR   ./components/services.tsx:66:20
+Parsing ecmascript source code failed
+  64 |       icon: Briefcase,
+  65 |       title: "Agency Consultancy Services",
+> 66 |       description: "provides professional advisory and representation services for organizations and individuals.It includes strategic guidance, compliance support, and liaison with relevant authorities or partners.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  67 | The service helps clients make informed decisions and operate efficiently within regulatory and business frameworks.n.",
+  68 |     },
+  69 |     
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:20:50.768] Server  LOG      ✓ Compiled in 170ms
+[17:20:54.199] Server  LOG      ✓ Compiled in 937ms
+[17:22:58.699] Browser ERROR   ./components/services.tsx:21:20
+Parsing ecmascript source code failed
+  19 |       icon: Building2,
+  20 |       title: "Company-Industrial Security Services",
+> 21 |       description: "delivers specialized protection for industrial facilities, assets, and personnel.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 | It includes surveillance, access control, patrols, and risk management solutions.
+  23 | The service ensures safe operations, asset protection, and uninterrupted industrial productivity.",
+  24 |     },
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:23:03.697] Browser ERROR   ./components/services.tsx:21:20
+Parsing ecmascript source code failed
+  19 |       icon: Building2,
+  20 |       title: "Company-Industrial Security Services",
+> 21 |       description: "delivers specialized protection for industrial facilities, assets, and personnel.It includes surveillance, access control, patrols, and risk management solutions.
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 | The service ensures safe operations, asset protection, and uninterrupted industrial productivity.",
+  23 |     },
+  24 |     {
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/services.tsx
+    ./app/page.tsx
+[17:23:07.289] Server  LOG      ✓ Compiled in 199ms
+[17:25:47.572] Server  LOG      ✓ Compiled in 1110ms
+[17:25:52.538] Server  LOG      ✓ Compiled in 909ms
+[17:25:56.487] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:25:56.540] Server  LOG      ✓ Compiled in 3ms
+[17:25:57.317] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <Home>
+                    <main className="min-h-screen">
+                      <Header>
+                        <header className="fixed top-...">
+                          <div className="container ...">
+                            <div className="flex items...">
+                              <LinkComponent>
+                              <nav className="hidden md:...">
+                                <a>
+                                <a>
+                                <a>
+                                <a
++                                 href="#gallery"
+-                                 href="#booking"
+                                  className="text-sm font-medium text-white hover:text-accent transition-colors"
+                                >
++                                 Gallery
+-                                 Book Service
+                                ...
+                              ...
+                      ...
+                ...
+              ...
+
+[17:25:57.318] Browser WARN    Image with src "http://localhost:3000/multilinkLogo.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[17:25:57.319] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[17:25:57.319] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[17:25:57.319] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[17:25:57.319] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765702806581}
+[17:25:57.319] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765702806582}
+[17:37:11.857] Server  LOG      ✓ Compiled in 187ms
+[17:37:15.786] Server  LOG      ✓ Compiled in 157ms
+[17:37:22.977] Server  LOG      ✓ Compiled in 291ms
+[17:38:19.087] Server  LOG      ✓ Compiled in 245ms
+[17:38:30.392] Server  LOG      ✓ Compiled in 203ms
+[17:38:30.698] Browser ERROR   ./components/gallery.tsx:13:6
+Parsing ecmascript source code failed
+  11 |   // Sample media data - replace with your actual images and videos
+  12 |   const mediaItems = [
+> 13 |    y Dog Training",
+     |      ^^^
+  14 |       category: "training",
+  15 |     },
+  16 |     {
+
+Expected ',', got 'Dog'
+
+Import trace:
+  Server Component:
+    ./components/gallery.tsx
+    ./app/page.tsx
+[17:38:34.959] Server  LOG      ✓ Compiled in 229ms
+[17:38:35.696] Browser ERROR   ./components/gallery.tsx:14:11
+Parsing ecmascript source code failed
+  12 |   const mediaItems = [
+  13 |    
+> 14 |       type: "image" as const,
+     |           ^
+  15 |       src: "/camera2.jpg",
+  16 |       title: "Surveillance Training",
+  17 |       category: "training",
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./components/gallery.tsx
+    ./app/page.tsx
