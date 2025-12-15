@@ -122,7 +122,9 @@ export function Footer() {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/multilink_security/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               aria-label="Instagram"
             >
