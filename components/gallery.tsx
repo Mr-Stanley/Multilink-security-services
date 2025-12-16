@@ -10,8 +10,19 @@ export function Gallery() {
 
   // Sample media data - replace with your actual images and videos
   const mediaItems = [
-  
-   
+    // Security Personnel Images
+    {
+      type: "image" as const,
+      src: "/pics101.jpg",
+      title: "Security Personnel & Patrol Vehicle",
+      category: "personnel",
+    },
+    {
+      type: "image" as const,
+      src: "/pics102.jpg",
+      title: "Professional Security Team",
+      category: "personnel",
+    },
     // Training and Personnel Videos
     {
       type: "video" as const,
@@ -100,49 +111,53 @@ export function Gallery() {
               className="group relative overflow-hidden bg-card border-border hover:shadow-lg transition-all cursor-pointer"
               onClick={() => openMedia(item)}
             >
-              <div className="aspect-square relative">
-                {item.type === "image" ? (
+              {item.type === "image" ? (
+                // Image Card - maintains natural aspect ratio
+                <div className="relative w-full h-full">
                   <Image
                     src={item.src}
                     alt={item.title}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-300"
+                    width={800}
+                    height={600}
+                    className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
-                ) : (
-                  <div className="w-full h-full bg-primary/10 relative overflow-hidden">
-                    <video
-                      src={item.src}
-                      className="w-full h-full object-cover"
-                      muted
-                      loop
-                      playsInline
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="bg-black/50 rounded-full p-4">
-                        <Play className="w-12 h-12 text-white" fill="currentColor" />
-                      </div>
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity">
+                      <ImageIcon className="w-8 h-8 text-white" />
                     </div>
                   </div>
-                )}
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-                  {item.type === "video" && (
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                    <p className="text-white text-sm font-medium">{item.title}</p>
+                  </div>
+                </div>
+              ) : (
+                // Video Card - fixed aspect ratio
+                <div className="relative w-full aspect-video bg-primary/10">
+                  <video
+                    src={item.src}
+                    className="w-full h-full object-cover"
+                    muted
+                    loop
+                    playsInline
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="bg-black/50 rounded-full p-4">
+                      <Play className="w-12 h-12 text-white" fill="currentColor" />
+                    </div>
+                  </div>
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity">
                       <div className="bg-white/90 rounded-full p-4">
                         <Play className="w-8 h-8 text-primary" fill="currentColor" />
                       </div>
                     </div>
-                  )}
-                  {item.type === "image" && (
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-                      <ImageIcon className="w-8 h-8 text-white" />
-                    </div>
-                  )}
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                    <p className="text-white text-sm font-medium">{item.title}</p>
+                  </div>
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                  <p className="text-white text-sm font-medium">{item.title}</p>
-                </div>
-              </div>
+              )}
             </Card>
           ))}
         </div>
