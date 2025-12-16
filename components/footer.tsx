@@ -101,14 +101,18 @@ export function Footer() {
           </p>
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://web.facebook.com/profile.php?id=61585409600656"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               aria-label="Facebook"
             >
               <Facebook className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://x.com/Multilink__"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               aria-label="Twitter"
             >
